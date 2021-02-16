@@ -1,0 +1,98 @@
+body{
+    background-color: darkslateblue;
+}
+
+.login{
+    display: flex;
+    width: 300px;
+    border:solid;
+    flex-direction: column
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+}
+
+.enter{
+    background-color: cadetblue;
+    border: solid;
+    text-align: center;
+}
+
+.nave{
+    border: solid;
+    display: flex;
+    text-align: center;
+}
+
+li{
+    flex: 1 1 auto;
+    list-style: none;
+}
+
+.heroes{
+    border: solid;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.superheroe{
+    width: 200px;
+    margin: 5px;
+    border: solid;
+    flex: auto;
+}
+
+.mas{
+    margin-left: 10px;
+    float: left;
+}
+
+.cd_heroes{
+    border: solid;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.dc_img{
+    width: 100%;
+    flex: auto;
+}
+.cdOnli{
+    float: left;
+    border: solid;
+    margin-left: 20px;
+}
+
+.datos{
+    font-size: 20px;
+}
+.marvel{
+    width: 200px;
+    border: solid;
+}
+
+.padre_search{
+    display: flex;
+    width: 100%;
+}
+.texto{
+    text-align: center;
+    border: solid;
+    flex: auto;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resultado{
+    flex: auto;
+    border: solid;
+}
+.buquedas{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
